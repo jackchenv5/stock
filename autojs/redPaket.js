@@ -4,7 +4,7 @@ while (true) {
     sleep(200);
     var curPkgName = currentPackage();
     if (curPkgName == "com.android.systemui" || curPkgName == "com.vivo.fingerprintui") {
-      console.log('in config ui ...');
+      console.log('in end ui ...');
       break
     }
     home(); 
